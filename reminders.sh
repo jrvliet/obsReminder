@@ -144,7 +144,7 @@ done
 
 
 echo -e $body
-declare -a testrecip=('karraki@nmsu.edu' 'jrvander@nmsu.edu' 'feuilldk@nmsu.edu')
+declare -a testrecip=('jrvander@nmsu.edu')
 # Send the message
 if [ "$testing" -eq "1" ]; then
     echo -e $body | mail -s "Campus Observatory" jrvliet@gmail.com
